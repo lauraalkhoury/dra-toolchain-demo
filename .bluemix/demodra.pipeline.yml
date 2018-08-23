@@ -1,4 +1,11 @@
 ---
+properties:
+- name: MY_PIPELINE_PROPERTY
+  value: helloooo
+  type: text
+- name: MY_SECURE_PROPERTY
+  value: verysecure
+  type: secure
 stages:
 - name: BUILD
   inputs:
